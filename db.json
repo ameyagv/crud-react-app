@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "age": 28,
+      "name": "Lamb Burnet",
+      "gender": "male",
+      "company": "COMTREK",
+      "email": "lambburnett@comtrek.com",
+      "phone": "+1 (920) 505-2254",
+      "address": "216 Rodney Street, Springdale, Delaware, 2077"
+    },
+    {
+      "id": 2,
+      "age": 31,
+      "name": "Wanda Johnston",
+      "gender": "female",
+      "company": "DUFLEX",
+      "email": "wandajohnston@duflex.com",
+      "phone": "+1 (879) 541-3305",
+      "address": "118 Cambridge Place, Riegelwood, Mississippi, 9238"
+    },
+    {
+      "id": 3,
+      "age": 28,
+      "name": "Cassandra Blankenship",
+      "gender": "female",
+      "company": "EVENTAGE",
+      "email": "cassandrablankenship@eventage.com",
+      "phone": "+1 (826) 461-3191",
+      "address": "419 Stewart Street, Bath, Virginia, 4439"
+    },
+    {
+      "id": 4,
+      "age": 32,
+      "name": "Yvonne Morris",
+      "gender": "female",
+      "company": "PERKLE",
+      "email": "yvonnemorris@perkle.com",
+      "phone": "+1 (916) 459-3386",
+      "address": "960 Brightwater Court, Wedgewood, Guam, 2527"
+    },
+    {
+      "id": 5,
+      "age": 30,
+      "name": "Violet Holt",
+      "gender": "female",
+      "company": "QUILM",
+      "email": "violetholt@quilm.com",
+      "phone": "+1 (935) 426-2011",
+      "address": "272 Sands Street, Leland, Illinois, 2472"
+    },
+    {
+      "name": "Ameya Girish Vaichalkar",
+      "email": "ameyav1234@gmail.com",
+      "phone": "+1 (920) 505-2254",
+      "gender": "male",
+      "age": "25",
+      "company": "North carolina state university",
+      "address": "509 Tartan Circle Apt 2",
+      "id": 8
+    },
+    {
+      "name": "Ameya",
+      "email": "AmeyaGirish.Vaichalkar@stefanini.com",
+      "phone": "+1 (920) 505-1111",
+      "gender": "male",
+      "age": "24",
+      "company": "Stefanini",
+      "address": "509 Tartan Circle, Apt 2",
+      "id": 9
+    }
+  ]
+}
