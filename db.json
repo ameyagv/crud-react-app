@@ -13,7 +13,7 @@
     {
       "id": 2,
       "age": 31,
-      "name": "Wanda Johnston",
+      "name": "Smith Johnston",
       "gender": "female",
       "company": "DUFLEX",
       "email": "wandajohnston@duflex.com",
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "age": 28,
-      "name": "Cassandra Blankenship",
+      "name": "Cassa Blankenship",
       "gender": "female",
       "company": "EVENTAGE",
       "email": "cassandrablankenship@eventage.com",
@@ -61,13 +61,13 @@
       "id": 8
     },
     {
-      "name": "Ameya",
-      "email": "AmeyaGirish.Vaichalkar@stefanini.com",
-      "phone": "+1 (920) 505-1111",
+      "name": "Ameya Girish Vaichalkar",
+      "email": "ameyav1234@gmail.com",
+      "phone": "+918830122062",
       "gender": "male",
-      "age": "24",
-      "company": "Stefanini",
-      "address": "509 Tartan Circle, Apt 2",
+      "age": "27",
+      "company": "North carolina state university",
+      "address": "a/30 garden view indirashankar nagari",
       "id": 9
     }
   ]
