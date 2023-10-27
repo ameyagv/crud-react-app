@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Ameya Girish Vaichalkar",
+      "username": "agvaicha",
+      "password": "password",
+      "id": 1
+    },
+    {
+      "name": "ameya",
+      "username": "ameyagv",
+      "password": "password",
+      "id": 2
+    },
+    {
+      "name": "Ameya",
+      "username": "ameyagv123",
+      "password": "password",
+      "id": 3
+    }
+  ]
+}

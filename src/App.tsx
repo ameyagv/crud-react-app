@@ -1,20 +1,35 @@
-import ItemCRUD from "./components/ItemCRUD";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import Create from "./components/Create";
-import Read from "./components/Read";
-import Update from "./components/Update";
+import Register from "./components/Register";
+import Login from "./components/Login";
+import { useAuth, AuthProvider } from "./AuthContext";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+
+function ProtectedRoute({ element }) {
+  const { isAuthenticated } = useAuth();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!isAuthenticated) {
+      navigate("/login");
+    }
+  }, [isAuthenticated, navigate]);
+
+  return isAuthenticated ? element : null;
+}
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/create" element={<Create />}></Route>
-        <Route path="/update/:id" element={<Update />}></Route>
-        <Route path="read/:id" element={<Read />}></Route>
-      </Routes>
-    </BrowserRouter>
+    <AuthProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Register />} />
+          <Route path="/" element={<ProtectedRoute element={<Home />} />} />
+        </Routes>
+      </BrowserRouter>
+    </AuthProvider>
   );
 }
 
